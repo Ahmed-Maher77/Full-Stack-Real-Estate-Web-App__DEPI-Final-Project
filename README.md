@@ -1,4 +1,4 @@
-# Full Stack Real Estate Web App:
+# Full-Stack Real Estate Platform:
 A modern full-stack real estate web application designed to provide seamless property management and booking experiences. This application offers features like responsive design, property listings, favorites management, booking functionalities, easy navigation, and many more. Built with React, Prisma, MongoDB, and other cutting-edge technologies, it ensures high performance, accessibility, and SEO optimization. The app supports easy navigation, simple animations, and robust authentication for a secure, scalable solution.
 
 <hr/>
