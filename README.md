@@ -5,7 +5,7 @@ A modern full-stack real estate web application designed to provide seamless pro
 
 💻 **Used Technologies:** <br>
 - **Frontend:** HTML, CSS, React.js, Mantine UI, React Query, Toastify
-- **Backend:** Prisma, MongoDB
+- **Backend:** Node.js, Express.js, Prisma, MongoDB
 - **Authentication:** Auth0
 - **Deployment:** Vercel
 - **Image Upload:** Cloudinary
@@ -17,7 +17,8 @@ Google Fonts
 <br/>
 
 🌐**Demo (Live Preview):** <a href="https://full-stack-real-estate-web-app-depi-final-project.vercel.app/" target="_blank">https://full-stack-real-estate-web-app-depi-final-project.vercel.app/</a> 
-
+<br/><br/>
+**📊 Presentation:** <a href="https://docs.google.com/presentation/d/1smns3cbhBxojP1qGxGeBIC3UO5UqFCUp/edit?usp=sharing&ouid=111150948434081390825&rtpof=true&sd=true" target="_blank">click here (google slides)</a> 
 <br/>
 
 📊 **Presentation:** [click here (google slides)](https://docs.google.com/presentation/d/1JbQSmjfk1_z83gjj1-33tv0Sst0h_Hzo/edit?usp=sharing&ouid=111150948434081390825&rtpof=true&sd=true)
@@ -56,9 +57,9 @@ To download and run this project locally:
 <!-- 
 ## Contributors:
 
+- <strong>Ahmed Maher Algohary (Me) **||Team Leader||**:</strong> <a href="https://www.linkedin.com/in/ahmed-maher-algohary/" title="see me on LinkedIn">see me on LinkedIn</a> 
 - <strong>Ahmed Abdallah Alqasapy</strong>
 - <strong>Esraa Aziz</strong>
-- <strong>Ahmed Maher Algohary</strong>
 - <strong>Arwa Mahmoud</strong>
 - <strong>Abdulhakim Osama</strong>
 - <strong>Maryam Abdul Raheem</strong>
