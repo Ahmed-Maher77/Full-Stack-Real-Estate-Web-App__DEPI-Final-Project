@@ -39,7 +39,7 @@ Google Fonts
 
 ## 👀 Website Preview:
 <a href="https://full-stack-real-estate-web-app-depi-final-project.vercel.app/" title="demo">
-  <img src="uploaded-img-on-github-readme" alt="website preview" width="400">
+  <img src="https://github.com/user-attachments/assets/b7e126cb-3e4b-4e2e-8f3c-11c1353bbbf9" alt="website preview - UI Mockup" width="400">
 </a>
 
 <hr>
