@@ -34,7 +34,7 @@ const SearchBar = () => {
   },[pathname])
 
 	return (
-    <div style={{display: "flex", flexDirection: "column", gap: "5px", minWidth: "370px"}}>
+    <div style={{display: "flex", flexDirection: "column", gap: "5px", minWidth: "340px"}}>
 		<div className="flexCenter search-bar" style={{display: "flex", flexWrap: "nowrap", gap: "10px", padding: "10px"}}>
 			<HiLocationMarker color="var(--blue)" size={25} />
 			<input
