@@ -2,7 +2,13 @@ import "./Hero.css";
 import CountUp from "react-countup";
 import { motion } from "framer-motion";
 import SearchBar from "../SearchBar/SearchBar";
+import { useSearchBar } from "../../utils/context/SearchBarContext";
+
+
 const Hero = () => {
+  const { filter, setFilter } = useSearchBar();
+
+
   return (
     <section className="hero-wrapper">
       <div className="paddings innerWidth flexCenter hero-container">
@@ -28,7 +34,7 @@ const Hero = () => {
             <span>Forget all difficulties in finding a residence for you</span>
           </div>
 
-          <SearchBar/>
+          <SearchBar filter={filter} setFilter={setFilter} />
 
           <div className="flexCenter stats">
             <div className="flexColCenter stat">

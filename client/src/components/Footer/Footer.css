@@ -10,6 +10,24 @@
     margin-top: 1.5rem;
     font-weight: 500;
 }
+.f-copyright {
+  text-align: center;
+  width: 100%;
+  padding: 12px 0 0 0;
+  font-size: 13px;
+  color: #888;
+  border-top: 1px solid #eee;
+  margin-top: 16px;
+}
+.f-copyright a {
+  color: inherit;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+.f-copyright a:hover {
+  color: #4066ff;
+  text-decoration: underline;
+}
 @media (max-width: 768px) {
     .f-container{
         justify-content: center;

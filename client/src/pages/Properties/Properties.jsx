@@ -4,54 +4,63 @@ import "./Properties.css";
 import useProperties from "../../hooks/useProperties";
 import { PuffLoader } from "react-spinners";
 import PropertyCard from "../../components/PropertyCard/PropertyCard";
+import { useSearchBar } from "../../utils/context/SearchBarContext";
+
 const Properties = () => {
-  const { data, isError, isLoading } = useProperties();
-  const [filter, setFilter] = useState("");
-  if (isError) {
-    return (
-      <div className="wrapper">
-        <span>Error while fetching data</span>
-      </div>
-    );
-  }
+	const { data, isError, isLoading } = useProperties();
+	const { filter, setFilter } = useSearchBar();
 
-  if (isLoading) {
-    return (
-      <div className="wrapper flexCenter" style={{ height: "60vh" }}>
-        <PuffLoader
-          height="80"
-          width="80"
-          radius={1}
-          color="#4066ff"
-          aria-label="puff-loading"
-        />
-      </div>
-    );
-  }
-  return (
-    <div className="wrapper">
-      <div className="flexColCenter paddings innerWidth properties-container">
-        <SearchBar filter={filter} setFilter={setFilter} />
+	if (isError) {
+		return (
+			<div className="wrapper">
+				<span>Error while fetching data</span>
+			</div>
+		);
+	}
 
-        <div className="paddings flexCenter properties">
-          {
-            // data.map((card, i)=> (<PropertyCard card={card} key={i}/>))
+	if (isLoading) {
+		return (
+			<div className="wrapper flexCenter" style={{ height: "60vh" }}>
+				<PuffLoader
+					height="80"
+					width="80"
+					radius={1}
+					color="#4066ff"
+					aria-label="puff-loading"
+				/>
+			</div>
+		);
+	}
+	return (
+		<div className="wrapper">
+			<div className="flexColCenter paddings innerWidth properties-container">
+				<SearchBar filter={filter} setFilter={setFilter} />
 
-            data
-              .filter(
-                (property) =>
-                  property.title.toLowerCase().includes(filter.toLowerCase()) ||
-                  property.city.toLowerCase().includes(filter.toLowerCase()) ||
-                  property.country.toLowerCase().includes(filter.toLowerCase())
-              )
-              .map((card, i) => (
-                <PropertyCard card={card} key={i} />
-              ))
-          }
-        </div>
-      </div>
-    </div>
-  );
+				<div className="paddings flexCenter properties">
+					{
+						// data.map((card, i)=> (<PropertyCard card={card} key={i}/>))
+
+						data
+							.filter(
+								(property) =>
+									property.title
+										.toLowerCase()
+										.includes(filter.toLowerCase()) ||
+									property.city
+										.toLowerCase()
+										.includes(filter.toLowerCase()) ||
+									property.country
+										.toLowerCase()
+										.includes(filter.toLowerCase())
+							)
+							.map((card, i) => (
+								<PropertyCard card={card} key={i} />
+							))
+					}
+				</div>
+			</div>
+		</div>
+	);
 };
 
 export default Properties;

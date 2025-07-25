@@ -13,6 +13,8 @@ import Property from "./pages/Property/Property";
 import UserDetailContext from "./context/UserDetailContext";
 import Bookings from "./pages/Bookings/Bookings";
 import Favourites from "./pages/Favourites/Favourites";
+import SearchBarProvider from "./utils/context/SearchBarContext";
+import Contact from "./pages/Contact/Contact";
 
 function App() {
   const queryClient = new QueryClient();
@@ -25,6 +27,7 @@ function App() {
 
   return (
     <UserDetailContext.Provider value={{ userDetails, setUserDetails }}>
+      <SearchBarProvider>
       <QueryClientProvider client={queryClient}>
         <BrowserRouter>
           <Suspense fallback={<div>Loading...</div>}>
@@ -36,14 +39,16 @@ function App() {
                   <Route path=":propertyId" element={<Property />} />
                 </Route>
                 <Route path="/bookings" element={<Bookings />} />
+                <Route path="/contact" element={<Contact />} />
                 <Route path="/favourites" element={<Favourites />} />
               </Route>
             </Routes>
           </Suspense>
         </BrowserRouter>
         <ToastContainer />
-        <ReactQueryDevtools initialIsOpen={false} />
-      </QueryClientProvider>
+          <ReactQueryDevtools initialIsOpen={false} />
+        </QueryClientProvider>
+      </SearchBarProvider>
     </UserDetailContext.Provider>
   );
 }

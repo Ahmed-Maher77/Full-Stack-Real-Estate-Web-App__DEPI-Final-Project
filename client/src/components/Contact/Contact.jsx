@@ -26,10 +26,12 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">Call</span>
-                    <span className="secondaryText">021 123 145 14</span>
+                    <span className="secondaryText">+20 1150 3834 16</span>
                   </div>
                 </div>
-                <div className="flexCenter button">Call now</div>
+                <div className="flexCenter button" onClick={()=>{
+                  window.open("tel:+201150383416", "_blank");
+                }}>Call now</div>
               </div>
 
               <div className="flexColCenter mode">
@@ -39,10 +41,12 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">Chat</span>
-                    <span className="secondaryText">021 123 145 14</span>
+                    <span className="secondaryText">+20 1150 3834 16</span>
                   </div>
                 </div>
-                <div className="flexCenter button">Chat now</div>
+                <div className="flexCenter button" onClick={()=>{
+                  window.open("https://wa.me/201150383416", "_blank");
+                }}>Chat now</div>
               </div>
             </div>
 
@@ -55,10 +59,12 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">Video Call</span>
-                    <span className="secondaryText">021 123 145 14</span>
+                    <span className="secondaryText">+20 1150 3834 16</span>
                   </div>
                 </div>
-                <div className="flexCenter button">Video Call now</div>
+                <div className="flexCenter button" onClick={()=>{
+                  window.open("https://wa.me/201150383416", "_blank");
+                }}>Video Call now</div>
               </div>
 
               <div className="flexColCenter mode">
@@ -68,10 +74,12 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">Message</span>
-                    <span className="secondaryText">021 123 145 14</span>
+                    <span className="secondaryText">+20 1150 3834 16</span>
                   </div>
                 </div>
-                <div className="flexCenter button">Message now</div>
+                <div className="flexCenter button" onClick={()=>{
+                  window.open("https://wa.me/201150383416", "_blank");
+                }}>Message now</div>
               </div>
             </div>
           </div>
