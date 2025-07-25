@@ -17,9 +17,7 @@ Google Fonts
 <br/>
 
 🌐**Demo (Live Preview):** <a href="https://full-stack-real-estate-web-app-depi-final-project.vercel.app/" target="_blank">https://full-stack-real-estate-web-app-depi-final-project.vercel.app/</a> 
-
 <br/>
-
 📊 **Presentation:** [click here (google slides)](https://docs.google.com/presentation/d/1JbQSmjfk1_z83gjj1-33tv0Sst0h_Hzo/edit?usp=sharing&ouid=111150948434081390825&rtpof=true&sd=true)
 
 <br/>
@@ -39,19 +37,27 @@ Google Fonts
 <br>
 
 ### 📥 Installation Instructions for Local Setup:
-To download and run this project locally:
-    ```
-    1. Clone the repository:
-    => git clone https://github.com/Ahmed-Maher77/Full-Stack-Real-Estate-Web-App__DEPI-Final-Project.git
-    2. Navigate into the project directory:
-    => cd Full-Stack-Real-Estate-Web-App__DEPI-Final-Project
-    3. Install dependencies:
-    => yarn install
-    4. Set up environment variables:
-    => Create a .env file in the root directory and add the required variables for MongoDB, Auth0, and Cloudinary (MongoDB URI, Auth0 domain and client ID, Cloudinary API details).
-    5. Run the development server:
-    => npm run dev
-    ```
+To download and run this project locally:<br/>
+```bash    
+1. Clone the repository:
+   git clone https://github.com/Ahmed-Maher77/Full-Stack-Real-Estate-Web-App__DEPI-Final-Project.git
+
+2. Navigate into the project directory:
+   cd Full-Stack-Real-Estate-Web-App__DEPI-Final-Project
+
+3. Install dependencies:
+   yarn install
+
+4. Set up environment variables:
+   - Create a `.env` file in the root directory.
+   - Add the required variables for:
+     • MongoDB (e.g., `MONGODB_URI`)  
+     • Auth0 (e.g., `AUTH0_DOMAIN`, `AUTH0_CLIENT_ID`)  
+     • Cloudinary (e.g., `CLOUDINARY_CLOUD_NAME`, `CLOUDINARY_API_KEY`, `CLOUDINARY_API_SECRET`)
+
+5. Run the development server:
+   npm run dev
+```
 
 <!-- 
 ## Contributors:
