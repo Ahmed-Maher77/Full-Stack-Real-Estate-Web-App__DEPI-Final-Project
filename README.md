@@ -19,6 +19,8 @@ Google Fonts
 🌐**Demo (Live Preview):** <a href="https://full-stack-real-estate-web-app-depi-final-project.vercel.app/" target="_blank">https://full-stack-real-estate-web-app-depi-final-project.vercel.app/</a> 
 <br/><br/>
 📊 **Presentation:** [click here (google slides)](https://docs.google.com/presentation/d/1JbQSmjfk1_z83gjj1-33tv0Sst0h_Hzo/edit?usp=sharing&ouid=111150948434081390825&rtpof=true&sd=true)
+<br/><br/>
+🎥 **Watch Demo Video on LinkedIn:** <a href="https://www.linkedin.com/posts/ahmed-maher-algohary_%F0%9D%90%8F%F0%9D%90%AB%F0%9D%90%A8%F0%9D%90%A3%F0%9D%90%9E%F0%9D%90%9C%F0%9D%90%AD-%F0%9D%90%8D%F0%9D%90%9A%F0%9D%90%A6%F0%9D%90%9E-full-stack-real-activity-7253511269020778496-PDiL?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADxaYJMBq3vC9su8VPtfe-FziMjGaqcNOsA" target="_blank">Click Here</a> 
 
 <hr/>
 
@@ -33,6 +35,12 @@ Google Fonts
 - **Image Uploads:** Users can upload property images, stored securely using Cloudinary, allowing for dynamic and visually appealing property listings.
 - **SEO & Accessibility:** The app is built with high SEO standards and accessibility features, ensuring that it ranks well on search engines and is usable by all users, including those with disabilities.
 - <b>Easy Navigation:</b> Intuitive navigation for a seamless browsing experience through the website.
+<hr>
+
+## 👀 Website Preview:
+<a href="https://full-stack-real-estate-web-app-depi-final-project.vercel.app/" title="demo">
+  <img src="uploaded-img-on-github-readme" alt="website preview" width="400">
+</a>
 
 <hr>
 
@@ -69,3 +77,4 @@ To download and run this project locally:<br/>
 - <strong>Abdulhakim Osama</strong>
 - <strong>Maryam Abdul Raheem</strong>
 - <strong>Youmna Al-Saeed</strong> -->
+
