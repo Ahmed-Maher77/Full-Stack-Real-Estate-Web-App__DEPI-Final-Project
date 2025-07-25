@@ -1,7 +1,7 @@
 # Full Stack Real Estate Web App:
 A modern full-stack real estate web application designed to provide seamless property management and booking experiences. This application offers features like responsive design, property listings, favorites management, booking functionalities, easy navigation, and many more. Built with React, Prisma, MongoDB, and other cutting-edge technologies, it ensures high performance, accessibility, and SEO optimization. The app supports easy navigation, simple animations, and robust authentication for a secure, scalable solution.
 
-<br/>
+<hr/>
 
 💻 **Used Technologies:** <br>
 - **Frontend:** HTML, CSS, React.js, Mantine UI, React Query, Toastify
@@ -14,13 +14,13 @@ A modern full-stack real estate web application designed to provide seamless pro
 - **Other Libraries / Tools:** <br>
 Google Fonts
 
-<br/>
+<hr/>
 
 🌐**Demo (Live Preview):** <a href="https://full-stack-real-estate-web-app-depi-final-project.vercel.app/" target="_blank">https://full-stack-real-estate-web-app-depi-final-project.vercel.app/</a> 
-<br/>
+<br/><br/>
 📊 **Presentation:** [click here (google slides)](https://docs.google.com/presentation/d/1JbQSmjfk1_z83gjj1-33tv0Sst0h_Hzo/edit?usp=sharing&ouid=111150948434081390825&rtpof=true&sd=true)
 
-<br/>
+<hr/>
 
 ## ✨Key Features:
 - **Fully Responsive Design:** The application is designed to work flawlessly across all devices, from desktops to smartphones, offering a seamless experience on any screen size.
@@ -34,7 +34,7 @@ Google Fonts
 - **SEO & Accessibility:** The app is built with high SEO standards and accessibility features, ensuring that it ranks well on search engines and is usable by all users, including those with disabilities.
 - <b>Easy Navigation:</b> Intuitive navigation for a seamless browsing experience through the website.
 
-<br>
+<hr>
 
 ### 📥 Installation Instructions for Local Setup:
 To download and run this project locally:<br/>
